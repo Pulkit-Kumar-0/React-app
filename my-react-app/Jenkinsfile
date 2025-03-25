@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/Pulkit-Kumar-0/React-app.git' 
+                git 'https://github.com/Pulkit-Kumar-0/React-app.git'
             }
         }
 
